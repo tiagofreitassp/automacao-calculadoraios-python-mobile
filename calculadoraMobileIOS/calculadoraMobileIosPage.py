@@ -29,8 +29,10 @@ class calculadoraIosPage():
         sleep(1)
 
         p.clicar(self,"id",v.btnIgual)
+        d.gerarScreenshot(self, dirSoma, "Ev2")
 
         p.clicar(self,"id",v.btnC)
+        d.criarDocumentoDeEvidencia(self, dirSoma, "CT01", "Cálculo Soma Android")
 
     def subtracao(self):
         d.criarPastaEvidencia(self, dirSubtracao)
@@ -49,8 +51,10 @@ class calculadoraIosPage():
         sleep(1)
 
         p.clicar(self, "id", v.btnIgual)
+        d.gerarScreenshot(self, dirSubtracao, "Ev2")
 
         p.clicar(self, "id", v.btnC)
+        d.criarDocumentoDeEvidencia(self, dirSubtracao, "CT02", "Cálculo Subtracao Android")
 
     def multiplicao(self):
         d.criarPastaEvidencia(self, dirMultiplicacao)
@@ -67,8 +71,10 @@ class calculadoraIosPage():
         sleep(1)
 
         p.clicar(self, "id", v.btnIgual)
+        d.gerarScreenshot(self, dirMultiplicacao, "Ev2")
 
         p.clicar(self, "id", v.btnC)
+        d.criarDocumentoDeEvidencia(self, dirMultiplicacao, "CT03", "Cálculo Multiplicacao Android")
 
     def divisao(self):
         d.criarPastaEvidencia(self, dirDivisao)
@@ -99,3 +105,4 @@ class calculadoraIosPage():
         p.clicar(self, "id", v.btnIgual)
 
         p.clicar(self, "id", v.btnC)
+        d.criarDocumentoDeEvidencia(self, dirDivisao, "CT04", "Cálculo Divisao Android")
