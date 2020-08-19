@@ -4,8 +4,8 @@ Script para teste automatizado para calculos simples na Calculadora no iOS usand
 ### Cobertura dos testes:  ###
 
 * Realizar calculos basicos na calculadora do iOS no emulador.
-*
-Realizar calculos basicos na calculadora do iOS no smartphone.
+
+* Realizar calculos basicos na calculadora do iOS no smartphone.
 
 ## Tecnologias:
 * [Python 3.8](https://www.python.org/)
@@ -41,11 +41,11 @@ O projeto foi criado para executar no MacOS. Mas pode receber adaptacoes para ex
 Recomendado utilizar o PyCharm, mas pode usar o Eclipse IDE ou Visual Studio Code.
 
 ###  - Fluxo
-*Descricao: Este script ira executar uma compra online, seguindo o fluxo desde a escolha do produto ate a etapa de confirmacao da compra.
+*Descricao: Este script ira executar calculos basicos como Soma, Subtracao, Multiplicacao e Divisao.
 
 ###  - Massas
 *Descricao: 
-Nao e necessario criar massas por enquanto.
+Nao e necessario criar massas.
 
 ###  - Evidencias
 *Descricao:
@@ -55,5 +55,7 @@ Para visualizar as evidencias no documento pode usar o MS Office Word ou o Libre
 
 ###  - Inicializar a automação
 *Descricao:
+
+Executar o Appium e o WebDriverAgent no Xcode.
 
 Para executar num smartphone/simulador, abra a classe Mobile Driver e altere os valores das variáveis
