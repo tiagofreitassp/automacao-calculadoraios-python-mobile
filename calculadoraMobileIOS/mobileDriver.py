@@ -7,14 +7,14 @@ from docx.shared import Inches
 dir = '../evidencias/'
 
 xcodeOrgId = "3P3JYXL37U"
-xcodeSigningId = "iPhone 8 Plus"
-udid = "1ac1b2904df1922053361fdb6b3044d649e3d5fd"
+xcodeSigningId = "iPhone SE (2nd generation)"
+udid = "19236B15-42B3-4193-81C2-72F20C2A246E"
 platformName = "iOS"
-deviceName = "TF-TysonSagan"
-platformVersion = "13.5"
-bundleId = "com.TiagoFreitas.SimpleCalculator"
+deviceName = "iPhone SE (2nd generation)"
+platformVersion = "14.3"
+bundleId = "com.mouredev.iOS-Calculator"
 automationName = "XCUITest"
-driverApp = "/Users/usuario/Documents/Scripts programacao/XcodeProjects/Apps/SimpleCalculator.ipa"
+driverApp = ""
 
 class mobileDriver():
     def criarPastaEvidencia(self, nPasta):
@@ -50,6 +50,10 @@ class mobileDriver():
             document.add_picture(diretorioEvidencia + '/Ev2.png', width=Inches(4.14))
             #document.add_page_break()
 
+            document.add_paragraph(id + '_Tela03')
+            document.add_picture(diretorioEvidencia + '/Ev3.png', width=Inches(4.14))
+            # document.add_page_break()
+
             document.save(diretorioEvidencia + '/' + nomeEvidencia + '.docx')
             print("Documento com as evidencias gerada com sucesso!")
         except:
@@ -65,7 +69,7 @@ class mobileDriver():
         desired_caps['udid'] = udid
         desired_caps['platformVersion'] = platformVersion
         desired_caps['bundleId'] = bundleId
-        desired_caps['app'] = driverApp
+        #desired_caps['app'] = driverApp
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(12)
 

@@ -29,7 +29,7 @@ Script para teste automatizado para calculos simples na Calculadora no iOS usand
 
 O app da calculadora do iOS utilizado para o teste deste projeto foi desenvolvido por terceiro e não por mim, caso execute com sucesso ou não, recomendo que após entender o código escrito, instale outro arquivo do formato .ipa e adapte o projeto. 
 
-Mas deixei o codigo fonte (SimpleCalculator-master.zip) na pasta drivers/iOS caso tenha problemas com o BundleId, abra o codigo fonte e altere o BundleId na sua conta Apple ID.
+Mas deixei o codigo fonte (iOS12Calculator-master.zip)na pasta drivers/iOS caso tenha problemas com o BundleId, abra o codigo fonte e altere o BundleId na sua conta Apple ID.
 
 Antes de executar, espero que saiba de instruções sobre o Apple ID, WebDriverAgent, Node, Appium e dependencias no MacOS, são exigências para automação nas plataformas da Apple.
 
@@ -59,3 +59,10 @@ Para visualizar as evidencias no documento pode usar o MS Office Word ou o Libre
 Executar o Appium e o WebDriverAgent no Xcode.
 
 Para executar num smartphone/simulador, abra a classe Mobile Driver e altere os valores das variáveis
+
+###  - App Calculadora
+*Descricao:
+
+O código fonte da calculadora foi obtida no link: https://github.com/mouredev/iOS12Calculator
+
+Entenda que como não foi desenvolvido por mim, caso ocorra algum problema nele, se souber programação no Swift fique a vontade para analisar o erro. Mas até o momento não ocorreu problemas, pode usar o arquivo zip.
