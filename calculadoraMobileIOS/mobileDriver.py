@@ -7,11 +7,11 @@ from docx.shared import Inches
 dir = '../evidencias/'
 
 xcodeOrgId = "3P3JYXL37U"
-xcodeSigningId = "iPhone SE (2nd generation)"
-udid = "19236B15-42B3-4193-81C2-72F20C2A246E"
+xcodeSigningId = "iPhone 13"
+udid = "676B8A13-3F85-4959-A9C3-41124EBE1A79"
 platformName = "iOS"
-deviceName = "iPhone SE (2nd generation)"
-platformVersion = "14.3"
+deviceName = "iPhone 13"
+platformVersion = "15.0"
 bundleId = "com.mouredev.iOS-Calculator"
 automationName = "XCUITest"
 driverApp = ""
