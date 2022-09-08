@@ -8,10 +8,10 @@ dir = '../evidencias/'
 
 xcodeOrgId = "3P3JYXL37U"
 xcodeSigningId = "iPhone 13"
-udid = "676B8A13-3F85-4959-A9C3-41124EBE1A79"
+udid = "8573B51A-F4EA-4BAA-91FB-AE51F84B9D7F"
 platformName = "iOS"
 deviceName = "iPhone 13"
-platformVersion = "15.0"
+platformVersion = "15.5"
 bundleId = "com.mouredev.iOS-Calculator"
 automationName = "XCUITest"
 driverApp = ""
