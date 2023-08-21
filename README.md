@@ -32,6 +32,8 @@ O app da calculadora do iOS utilizado para o teste deste projeto foi desenvolvid
 
 Mas deixei o codigo fonte (iOS12Calculator-master.zip)na pasta drivers/iOS caso tenha problemas com o BundleId, abra o codigo fonte e altere o BundleId na sua conta Apple ID.
 
+Utilize a versão 2 do Appium, pois as anteriores foram depreciadas e não possuem suporte do Desenvolvedor.
+
 Antes de executar, espero que saiba de instruções sobre o Apple ID, WebDriverAgent, Node, Appium e dependencias no MacOS, são exigências para automação nas plataformas da Apple.
 
 ###  - Plataforma
